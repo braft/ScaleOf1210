@@ -1,5 +1,5 @@
 from flask import render_template, request
-from app.forms import, InputForm
+from app.forms import InputForm
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/scale', methods=['GET', 'POST'])
