@@ -1,0 +1,12 @@
+<form method=post action="">
+		Ask me anything, for example:
+		On a scale of 1 to 10: "How cool is this?"
+	<p style="padding-top: 25px;">
+		On a scale of 1 to 10: 
+	</p>
+	{{ (form.inquiry) }}
+	<p style="padding-top: 10px;">{{ form.submit() }}</p>
+	{% if answer != None %}
+	{{ answer }}
+	{% endif %}
+</form>
